@@ -35,3 +35,4 @@ forge test -vvv
 ## License
 
 MIT
+<!-- 2026-06-09T16:28:08.403618 -->
