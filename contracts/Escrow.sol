@@ -14,7 +14,7 @@ pragma solidity ^0.8.24;
  * Learning: payable, msg.value, timestamps, state machine.
  */
 contract Escrow {
-    enum State { AWAITING_DEPOSIT, FUNDED, RELEASED, REFUNDED }
+    enum State { PENDING, AWAITING_DEPOSIT, FUNDED, RELEASED, REFUNDED }
 
     State public state = State.AWAITING_DEPOSIT;
 
